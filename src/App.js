@@ -1,11 +1,10 @@
 import './App.css';
 
-function App() {
-  return (
-      <div>
-        Test
-      </div>
-  );
-}
+const JSX = () =>{
+    return(
+        <h1 className={"accent-black"}>Hello JSX!</h1>
+    );
+};
 
-export default App;
+
+export default JSX;
