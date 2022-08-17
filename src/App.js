@@ -3,16 +3,16 @@ import React, {useState} from 'react';
 const Meme = () =>{
   return(
     <main className={"flex-col w-fit border-gray-400 border-2"}>
-      <div className={"flex w-full h-20 bg-green-800 container"}>
-        <h1 className={"text-5xl text-white"}>!</h1>
+      <div className={"flex w-full h-20 bg-purple-500 flex justify-center items-center"}>
+        <h1 className={"text-5xl text-white"}>Meme generator</h1>
       </div>
       <div>
-        <input type="text" placeholder={"Top text"}/>
-        <input type="text" placeholder={"Bottom text"}/>
+        <input type="text" className={"m-3 mt-6 p-1 border-purple-500 border-2 rounded-full"} placeholder={"Top text"}/>
+        <input type="text" className={"m-3 mt-6 p-1 border-purple-500 border-2 rounded-full"} placeholder={"Bottom text"}/>
       </div>
       <div>
-        <button>
-
+        <button className={"text-3xl text-purple-700 m-3 w-96 mt-6 p-1 border-purple-500 border-2 rounded-full"} >
+            Generate new meme!
         </button>
       </div>
     </main>
